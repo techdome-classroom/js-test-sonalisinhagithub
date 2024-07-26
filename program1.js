@@ -5,7 +5,12 @@ const getTotalIsles = function (grid) {
   const cols = grid[0].length;
   
 
-  const directions
+  const directions =[
+    [0,1],
+    [1,0],
+    [1,-1],
+    [-1,0]
+  ]
 
 };
 
