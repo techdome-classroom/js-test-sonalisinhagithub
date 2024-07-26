@@ -23,7 +23,7 @@ const getTotalIsles = function (grid) {
       if(!isValid (curRow , curCol)) continue;
       visited[curRow][curCol] = true;
       for (const [dr,dc] of directions){
-        stack.push([curRow + dr, curCol +dc])
+        stack.push([curRow + dr, curCol +dc]);
       }
     }
   }
