@@ -16,7 +16,9 @@ const getTotalIsles = function (grid) {
     return r >= 0 && r < row && c>=0 && c<cols && grid[r][c] === 'L' && !visited[r][c];
   };
 
-  const dfs
+  const dfs = (r,c) => {
+    const stack =[r,c]
+  }
   
 };
 
