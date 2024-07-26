@@ -27,6 +27,9 @@ const getTotalIsles = function (grid) {
       }
     }
   };
+
+  let numIsland = 0;
+  
   
 };
 
