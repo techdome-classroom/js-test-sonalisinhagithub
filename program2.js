@@ -1,7 +1,9 @@
 const decodeTheRing = function (s, p) {
 
     function matches (i,j){
-      if(i==)
+      if(i===s.length && i===p.length){
+        return 
+      }
     }
 
   };
