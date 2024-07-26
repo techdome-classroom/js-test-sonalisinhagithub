@@ -20,7 +20,8 @@ const getTotalIsles = function (grid) {
     const stack =[[r,c]];
     while (stack.length){
       const [curRow , curCol] = stack.pop();
-      if(!isValid (curRow , curCol))
+      if(!isValid (curRow , curCol)) continue;
+      visited[curRow][curCol] = true
     }
   }
   
