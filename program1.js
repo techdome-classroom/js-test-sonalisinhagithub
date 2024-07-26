@@ -29,7 +29,7 @@ const getTotalIsles = function (grid) {
     }
   };
 
-  let numIsland = 0;
+  let numIslands = 0;
 
   for (let i=0; i<row ; i++){
     for (let j=0;j<cols ;j++){
