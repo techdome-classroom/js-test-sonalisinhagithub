@@ -12,6 +12,8 @@ const getTotalIsles = function (grid) {
     [-1,0] //up
   ];
 
+  const isValid = ()
+
 };
 
 module.exports = getTotalIsles;
