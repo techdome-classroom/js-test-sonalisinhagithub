@@ -21,7 +21,10 @@ const getTotalIsles = function (grid) {
     while (stack.length){
       const [curRow , curCol] = stack.pop();
       if(!isValid (curRow , curCol)) continue;
-      visited[curRow][curCol] = true
+      visited[curRow][curCol] = true;
+      for (const [dr,dc] of directions){
+        
+      }
     }
   }
   
