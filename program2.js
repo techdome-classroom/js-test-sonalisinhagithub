@@ -7,6 +7,7 @@ const decodeTheRing = function (s, p) {
       if(i>s.length || j>p.length){
         return 0;
       }
+
       
     }
 
