@@ -19,7 +19,8 @@ const getTotalIsles = function (grid) {
   const dfs = (r,c) => {
     const stack =[[r,c]];
     while (stack.length){
-      const [curRow , ]
+      const [curRow , curCol] = stack.pop();
+      if(!isValid (curRow , curCol))
     }
   }
   
