@@ -15,7 +15,7 @@ const getTotalIsles = function (grid) {
   const isValid = (r,c) => {
     return r >= 0 && r < row && c>=0 && c<cols && grid[r][c] === 'L' && !visited[r][c];
   }
-
+  
 };
 
 module.exports = getTotalIsles;
