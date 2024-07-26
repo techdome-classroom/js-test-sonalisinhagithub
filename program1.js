@@ -3,7 +3,7 @@ const getTotalIsles = function (grid) {
 
   const rows = grid.length;
   const cols = grid[0].length;
-  const visited = Array.from({length : rows} , ()=> Array(cols))
+  const visited = Array.from({length : rows} , ()=> Array(cols).file)
   
 
   const directions =[
