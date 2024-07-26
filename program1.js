@@ -17,7 +17,8 @@ const getTotalIsles = function (grid) {
   };
 
   const dfs = (r,c) => {
-    const stack =[[r,c]]
+    const stack =[[r,c]];
+    
   }
   
 };
