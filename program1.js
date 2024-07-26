@@ -12,7 +12,9 @@ const getTotalIsles = function (grid) {
     [-1,0] //up
   ];
 
-  const isValid = ()
+  const isValid = (r,c) => {
+    return r >= 0 && r < row && c>= >
+  }
 
 };
 
