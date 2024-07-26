@@ -4,7 +4,10 @@ const decodeTheRing = function (s, p) {
       if(i===s.length && i===p.length){
         return 1;
       }
-      if(i>s.)
+      if(i>s.length || j>p.length){
+        return 0;
+      }
+      
     }
 
   };
