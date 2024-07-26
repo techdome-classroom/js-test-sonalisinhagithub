@@ -26,7 +26,7 @@ const getTotalIsles = function (grid) {
         stack.push([curRow + dr, curCol +dc]);
       }
     }
-  }
+  };
   
 };
 
